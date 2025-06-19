@@ -79,7 +79,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
@@ -169,7 +170,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(25)</span></div><div class="category" data-category="YXJjaGl2ZXJz">archivers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29weQ==">copy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGlzaw==">disk <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZWRpdG9y">editor <span class="quarto-category-count">(6)</span></div><div class="category" data-category="aW50ZXJuZXQ=">internet <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bXVzaWM=">music <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(25)</span></div><div class="category" data-category="c3lzdGVt">system <span class="quarto-category-count">(10)</span></div><div class="category" data-category="dGVybWluYWw=">terminal <span class="quarto-category-count">(25)</span></div><div class="category" data-category="d2F5bGFuZCUyRlgxMQ==">wayland/X11 <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(26)</span></div><div class="category" data-category="YXJjaGl2ZXJz">archivers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29udmVydA==">convert <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29weQ==">copy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGlzaw==">disk <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZWRpdG9y">editor <span class="quarto-category-count">(6)</span></div><div class="category" data-category="aW50ZXJuZXQ=">internet <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bXVzaWM=">music <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(26)</span></div><div class="category" data-category="c3lzdGVt">system <span class="quarto-category-count">(10)</span></div><div class="category" data-category="dGVybWluYWw=">terminal <span class="quarto-category-count">(26)</span></div><div class="category" data-category="d2F5bGFuZCUyRlgxMQ==">wayland/X11 <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -198,7 +199,43 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1750161600000" data-listing-file-modified-sort="1750307012874" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="380">
+<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDY29udmVydA==" data-listing-date-sort="1750161600000" data-listing-file-modified-sort="1750316374927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="670">
+<div class="thumbnail">
+<p><a href="./posts/pandoc/pandoc.html" class="no-external"></a></p><a href="./posts/pandoc/pandoc.html" class="no-external">
+<p><img loading="lazy" src="./posts/pandoc/pandoc.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/pandoc/pandoc.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/pandoc/pandoc.html" class="no-external">pandoc-конвертирование файлов</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/pandoc/pandoc.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dGVybWluYWw='); return false;">
+terminal
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udmVydA=='); return false;">
+convert
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/pandoc/pandoc.html" class="no-external"><strong>Pandoc</strong> — универсальная утилита («швейцарский нож») для работы с текстовыми форматами. Основная сфера применения — форматирование математических и технических текстов.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/pandoc/pandoc.html" class="no-external">
+<div class="listing-date">
+Jun 18, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1750161600000" data-listing-file-modified-sort="1750307012874" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="380">
 <div class="thumbnail">
 <p><a href="./posts/less/less.html" class="no-external"></a></p><a href="./posts/less/less.html" class="no-external">
 <p><img loading="lazy" src="./posts/less/less.jpg" class="thumbnail-image"></p>
@@ -234,7 +271,7 @@ Jun 18, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1750161600000" data-listing-file-modified-sort="1750306948664" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="502">
+<div class="quarto-post image-right" data-index="2" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1750161600000" data-listing-file-modified-sort="1750306948664" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="502">
 <div class="thumbnail">
 <p><a href="./posts/more/more.html" class="no-external"></a></p><a href="./posts/more/more.html" class="no-external">
 <p><img loading="lazy" src="./posts/more/more.jpg" class="thumbnail-image"></p>
@@ -270,7 +307,7 @@ Jun 18, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1750161600000" data-listing-file-modified-sort="1750303232266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="328">
+<div class="quarto-post image-right" data-index="3" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1750161600000" data-listing-file-modified-sort="1750316193187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="328">
 <div class="thumbnail">
 <p><a href="./posts/alien/Alien.html" class="no-external"></a></p><a href="./posts/alien/Alien.html" class="no-external">
 <p><img loading="lazy" src="./posts/alien/alien.jpg" class="thumbnail-image"></p>
@@ -306,7 +343,7 @@ Jun 18, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDd2F5bGFuZCUyRlgxMQ==" data-listing-date-sort="1749988800000" data-listing-file-modified-sort="1750230333578" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
+<div class="quarto-post image-right" data-index="4" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDd2F5bGFuZCUyRlgxMQ==" data-listing-date-sort="1749988800000" data-listing-file-modified-sort="1750230333578" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
 <div class="thumbnail">
 <p><a href="./posts/X11_vs_Wayland/X11_vs_Wayland.html" class="no-external"></a></p><a href="./posts/X11_vs_Wayland/X11_vs_Wayland.html" class="no-external">
 <p><img loading="lazy" src="./posts/X11_vs_Wayland/X11_vs_Wayland.jpg" class="thumbnail-image"></p>
@@ -342,7 +379,7 @@ Jun 16, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1717416000000" data-listing-file-modified-sort="1728333829642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="312">
+<div class="quarto-post image-right" data-index="5" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1717416000000" data-listing-file-modified-sort="1728333829642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="312">
 <div class="thumbnail">
 <p><a href="./posts/vim/vim.html" class="no-external"></a></p><a href="./posts/vim/vim.html" class="no-external">
 <p><img loading="lazy" src="./posts/vim/vim.jpg" class="thumbnail-image"></p>
@@ -378,7 +415,7 @@ Jun 4, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1713960000000" data-listing-file-modified-sort="1728333829642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="258">
+<div class="quarto-post image-right" data-index="6" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1713960000000" data-listing-file-modified-sort="1728333829642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="258">
 <div class="thumbnail">
 <p><a href="./posts/sudo/index.html" class="no-external"></a></p><a href="./posts/sudo/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/sudo/sudo.jpg" class="thumbnail-image"></p>
@@ -414,7 +451,7 @@ Apr 25, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDaW50ZXJuZXQ=" data-listing-date-sort="1713873600000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="419">
+<div class="quarto-post image-right" data-index="7" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDaW50ZXJuZXQ=" data-listing-date-sort="1713873600000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="419">
 <div class="thumbnail">
 <p><a href="./posts/curl/index.html" class="no-external"></a></p><a href="./posts/curl/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/curl/curl.jpg" class="thumbnail-image"></p>
@@ -450,7 +487,7 @@ Apr 24, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1713873600000" data-listing-file-modified-sort="1728333829642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
+<div class="quarto-post image-right" data-index="8" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1713873600000" data-listing-file-modified-sort="1728333829642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
 <div class="thumbnail">
 <p><a href="./posts/user/index.html" class="no-external"></a></p><a href="./posts/user/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/user/Useradd-vs-adduser.jpg" class="thumbnail-image"></p>
@@ -486,7 +523,7 @@ Apr 24, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1713787200000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
+<div class="quarto-post image-right" data-index="9" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1713787200000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
 <div class="thumbnail">
 <p><a href="./posts/mkfs/index.html" class="no-external"></a></p><a href="./posts/mkfs/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/mkfs/mkfs.jpg" class="thumbnail-image"></p>
@@ -522,7 +559,7 @@ Apr 23, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1713787200000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="quarto-post image-right" data-index="10" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1713787200000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <div class="thumbnail">
 <p><a href="./posts/bat/index.html" class="no-external"></a></p><a href="./posts/bat/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/bat/bat1.jpg" class="thumbnail-image"></p>
@@ -558,7 +595,7 @@ Apr 23, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1712750400000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
+<div class="quarto-post image-right" data-index="11" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1712750400000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
 <div class="thumbnail">
 <p><a href="./posts/console/index.html" class="no-external"></a></p><a href="./posts/console/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/console/console0.jpg" class="thumbnail-image"></p>
@@ -594,7 +631,7 @@ Apr 11, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1712664000000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1478">
+<div class="quarto-post image-right" data-index="12" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1712664000000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1478">
 <div class="thumbnail">
 <p><a href="./posts/lf/index.html" class="no-external"></a></p><a href="./posts/lf/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/lf/lf0.jpg" class="thumbnail-image"></p>
@@ -630,7 +667,7 @@ Apr 10, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1712664000000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="quarto-post image-right" data-index="13" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1712664000000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
 <div class="thumbnail">
 <p><a href="./posts/fsck/index.html" class="no-external"></a></p><a href="./posts/fsck/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/fsck/fsck.jpg" class="thumbnail-image"></p>
@@ -666,7 +703,7 @@ Apr 10, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDbXVzaWM=" data-listing-date-sort="1712664000000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="quarto-post image-right" data-index="14" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDbXVzaWM=" data-listing-date-sort="1712664000000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
 <div class="thumbnail">
 <p><a href="./posts/mpg123/index.html" class="no-external"></a></p><a href="./posts/mpg123/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/mpg123/mpg123.jpg" class="thumbnail-image"></p>
@@ -702,7 +739,7 @@ Apr 10, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1712577600000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2295">
+<div class="quarto-post image-right" data-index="15" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1712577600000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2295">
 <div class="thumbnail">
 <p><a href="./posts/nano/index.html" class="no-external"></a></p><a href="./posts/nano/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/nano/nano.jpg" class="thumbnail-image"></p>
@@ -738,7 +775,7 @@ Apr 9, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1712577600000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
+<div class="quarto-post image-right" data-index="16" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZWRpdG9y" data-listing-date-sort="1712577600000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
 <div class="thumbnail">
 <p><a href="./posts/cat/index.html" class="no-external"></a></p><a href="./posts/cat/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/cat/cat.jpg" class="thumbnail-image"></p>
@@ -774,7 +811,7 @@ Apr 9, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZGlzayUyQ3N5c3RlbQ==" data-listing-date-sort="1712577600000" data-listing-file-modified-sort="1750308014024" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
+<div class="quarto-post image-right" data-index="17" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZGlzayUyQ3N5c3RlbQ==" data-listing-date-sort="1712577600000" data-listing-file-modified-sort="1750308014024" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
 <div class="thumbnail">
 <p><a href="./posts/mount/index.html" class="no-external"></a></p><a href="./posts/mount/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/mount/mount.jpg" class="thumbnail-image"></p>
@@ -813,7 +850,7 @@ Apr 9, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDYXJjaGl2ZXJz" data-listing-date-sort="1712577600000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="282">
+<div class="quarto-post image-right" data-index="18" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDYXJjaGl2ZXJz" data-listing-date-sort="1712577600000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="282">
 <div class="thumbnail">
 <p><a href="./posts/archivers/index.html" class="no-external"></a></p><a href="./posts/archivers/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/archivers/archivers.jpg" class="thumbnail-image"></p>
@@ -849,7 +886,7 @@ Apr 9, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDbXVzaWM=" data-listing-date-sort="1712577600000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="401">
+<div class="quarto-post image-right" data-index="19" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDbXVzaWM=" data-listing-date-sort="1712577600000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="401">
 <div class="thumbnail">
 <p><a href="./posts/moc/index.html" class="no-external"></a></p><a href="./posts/moc/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/moc/moc.jpg" class="thumbnail-image"></p>
@@ -885,7 +922,7 @@ Apr 9, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1712491200000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+<div class="quarto-post image-right" data-index="20" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1712491200000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
 <div class="thumbnail">
 <p><a href="./posts/cron/index.html" class="no-external"></a></p><a href="./posts/cron/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/cron/cron.jpg" class="thumbnail-image"></p>
@@ -921,7 +958,7 @@ Apr 8, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDaW50ZXJuZXQ=" data-listing-date-sort="1712491200000" data-listing-file-modified-sort="1728333829642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="671">
+<div class="quarto-post image-right" data-index="21" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDaW50ZXJuZXQ=" data-listing-date-sort="1712491200000" data-listing-file-modified-sort="1728333829642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="671">
 <div class="thumbnail">
 <p><a href="./posts/wget/index.html" class="no-external"></a></p><a href="./posts/wget/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/wget/wget.jpg" class="thumbnail-image"></p>
@@ -957,7 +994,7 @@ Apr 8, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDY29weQ==" data-listing-date-sort="1712404800000" data-listing-file-modified-sort="1728333829642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="452">
+<div class="quarto-post image-right" data-index="22" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDY29weQ==" data-listing-date-sort="1712404800000" data-listing-file-modified-sort="1728333829642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="452">
 <div class="thumbnail">
 <p><a href="./posts/rsync/index.html" class="no-external"></a></p><a href="./posts/rsync/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/rsync/rsync.jpg" class="thumbnail-image"></p>
@@ -993,7 +1030,7 @@ Apr 7, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZGlzaw==" data-listing-date-sort="1712318400000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
+<div class="quarto-post image-right" data-index="23" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDZGlzaw==" data-listing-date-sort="1712318400000" data-listing-file-modified-sort="1728333829611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
 <div class="thumbnail">
 <p><a href="./posts/dd/index.html" class="no-external"></a></p><a href="./posts/dd/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/dd/dd.jpg" class="thumbnail-image"></p>
@@ -1029,7 +1066,7 @@ Apr 6, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1712318400000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
+<div class="quarto-post image-right" data-index="24" data-categories="bmV3cyUyQ3Rlcm1pbmFsJTJDc3lzdGVt" data-listing-date-sort="1712318400000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
 <div class="thumbnail">
 <p><a href="./posts/inxi/index.html" class="no-external"></a></p><a href="./posts/inxi/index.html" class="no-external">
 <p><img loading="lazy" src="./posts/inxi/inxi.jpg" class="thumbnail-image"></p>
@@ -1065,10 +1102,10 @@ Apr 6, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="bmV3cyUyQ2NvZGUlMkN0ZXJtaW5hbCUyQ2Rpc2s=" data-listing-date-sort="1712318400000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
+<div class="quarto-post image-right" data-index="25" data-categories="bmV3cyUyQ2NvZGUlMkN0ZXJtaW5hbCUyQ2Rpc2s=" data-listing-date-sort="1712318400000" data-listing-file-modified-sort="1728333829626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
 <div class="thumbnail">
 <p><a href="./posts/lsblk/index.html" class="no-external"></a></p><a href="./posts/lsblk/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/lsblk/lsblk.jpg" class="thumbnail-image"></p>
+<p><img loading="lazy" data-src="./posts/lsblk/lsblk.jpg" class="thumbnail-image"></p>
 </a><p><a href="./posts/lsblk/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -1108,6 +1145,9 @@ Apr 6, 2024
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

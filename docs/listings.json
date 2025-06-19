@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/pandoc/pandoc.html",
       "/posts/less/less.html",
       "/posts/more/more.html",
       "/posts/alien/Alien.html",
