@@ -108,11 +108,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#монтирование-iso" id="toc-монтирование-iso" class="nav-link active" data-scroll-target="#монтирование-iso">Монтирование ISO</a></li>
+  <li><a href="#размонтирование-iso-файла-в-linux" id="toc-размонтирование-iso-файла-в-linux" class="nav-link" data-scroll-target="#размонтирование-iso-файла-в-linux">Размонтирование <strong>ISO</strong> файла в <strong>Linux</strong></a></li>
+  <li><a href="#монтирование-разделов-жесткого-диска" id="toc-монтирование-разделов-жесткого-диска" class="nav-link" data-scroll-target="#монтирование-разделов-жесткого-диска">Монтирование разделов жесткого диска</a></li>
+  <li><a href="#диск-монтируется-в-указанную-папку." id="toc-диск-монтируется-в-указанную-папку." class="nav-link" data-scroll-target="#диск-монтируется-в-указанную-папку.">Диск монтируется в указанную папку.</a></li>
+  <li><a href="#отмонтироватние-устройства-производится-командой" id="toc-отмонтироватние-устройства-производится-командой" class="nav-link" data-scroll-target="#отмонтироватние-устройства-производится-командой">Отмонтироватние устройства производится командой:</a></li>
+  <li><a href="#можно-монтировать-командой-auto" id="toc-можно-монтировать-командой-auto" class="nav-link" data-scroll-target="#можно-монтировать-командой-auto">Можно монтировать командой <strong>auto</strong></a></li>
+  <li><a href="#отмонтировать" id="toc-отмонтировать" class="nav-link" data-scroll-target="#отмонтировать">Отмонтировать</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -127,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
     <div>
@@ -154,8 +166,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>lsblk.</li>
 </ul>
-<section id="монтирование-iso" class="level4">
-<h4 class="anchored" data-anchor-id="монтирование-iso">Монтирование ISO</h4>
+<section id="монтирование-iso" class="level3">
+<h3 class="anchored" data-anchor-id="монтирование-iso">Монтирование ISO</h3>
 <p>Для начала создаем точку монтирования — папку /mnt/iso</p>
 <p>(естественно, /mnt/iso/ — это папка, где будут лежать наши смонтированные образы (вдруг их будет несколько, так чтобы сразу видеть, где образы, а где все остальное):</p>
 <p>(<strong><em>Точку монтирования можно взять любую</em></strong>)</p>
@@ -188,15 +200,15 @@ ul.task-list li input[type="checkbox"] {
 <li># mount file.iso /mnt/iso</li>
 </ul>
 </section>
-<section id="размонтирование-iso-файла-в-linux" class="level4">
-<h4 class="anchored" data-anchor-id="размонтирование-iso-файла-в-linux">Размонтирование <strong>ISO</strong> файла в <strong>Linux</strong></h4>
+<section id="размонтирование-iso-файла-в-linux" class="level3">
+<h3 class="anchored" data-anchor-id="размонтирование-iso-файла-в-linux">Размонтирование <strong>ISO</strong> файла в <strong>Linux</strong></h3>
 <p>Используйте следующую команду для размонтирования <strong>ISO</strong> образа диска:</p>
 <ul>
 <li>$ sudo umount /dev/sdXX</li>
 </ul>
 </section>
-<section id="монтирование-разделов-жесткого-диска" class="level4">
-<h4 class="anchored" data-anchor-id="монтирование-разделов-жесткого-диска">Монтирование разделов жесткого диска</h4>
+<section id="монтирование-разделов-жесткого-диска" class="level3">
+<h3 class="anchored" data-anchor-id="монтирование-разделов-жесткого-диска">Монтирование разделов жесткого диска</h3>
 <p>Примонтируем раздел жесткого диска /dev/sdb1 к диску /dev/sda.</p>
 <p>Точку монтирования выберем, к примеру - /home/user/Видео.</p>
 <p>Точку монтирования можно взять любую:</p>
@@ -205,14 +217,17 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>где user — это название Вашего имени пользователя.</p>
 <p>сначала пишется команда mount, потом пишется то, что нужно присоединять (цифра показывает номер раздела, у нас он всего один), а потом куда присоединять.</p>
-<p>Диск, командой mount, монтируется в указанную папку. В некоторых случаях, когда имеются логические ошибки на разделах подключаемого жесткого диска, нужно дополнительно указать тип файловой системы.</p>
+</section>
+<section id="диск-монтируется-в-указанную-папку." class="level3">
+<h3 class="anchored" data-anchor-id="диск-монтируется-в-указанную-папку.">Диск монтируется в указанную папку.</h3>
+<p>В некоторых случаях, когда имеются логические ошибки на разделах подключаемого жесткого диска, нужно дополнительно указать тип файловой системы.</p>
 <p>В данном случае у нас ext3.</p>
 <ul>
 <li>sudo mount -t ext3 /dev/sdb1 /home/user/Видео</li>
 </ul>
 <p>Так же этот параметр может принимать значения:</p>
 <ul>
-<li><p>-t ntfsили -t ntfs-3g</p></li>
+<li><p>-t ntfs или -t ntfs-3g</p></li>
 <li><p>-t vfat</p></li>
 <li><p>-t iso9660</p></li>
 </ul>
@@ -221,7 +236,9 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>df -h</li>
 </ul>
-<p>Отмонтироватние устройства производится командой:</p>
+</section>
+<section id="отмонтироватние-устройства-производится-командой" class="level3">
+<h3 class="anchored" data-anchor-id="отмонтироватние-устройства-производится-командой">Отмонтироватние устройства производится командой:</h3>
 <ul>
 <li>sudo umount /dev/sdb1</li>
 </ul>
@@ -229,6 +246,15 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>sudo umount /home/user/Видео</li>
 </ul>
+</section>
+<section id="можно-монтировать-командой-auto" class="level3">
+<h3 class="anchored" data-anchor-id="можно-монтировать-командой-auto">Можно монтировать командой <strong>auto</strong></h3>
+<p>sudo mount -t auto /home/user/Видео</p>
+<p>sudo mount -t auto /dev/sdb1 /home/user/Видео</p>
+</section>
+<section id="отмонтировать" class="level3">
+<h3 class="anchored" data-anchor-id="отмонтировать">Отмонтировать</h3>
+<p>sudo umount /dev/sdb1 /home/user/Видео</p>
 
 
 </section>
