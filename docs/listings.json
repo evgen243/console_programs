@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/ffmpeg(audio_from_video_all)/ffmpeg_(audio_from_video_all).html",
       "/posts/pandoc/pandoc.html",
       "/posts/less/less.html",
       "/posts/more/more.html",
