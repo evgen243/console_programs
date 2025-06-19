@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/alien/Alien.html",
       "/posts/X11_vs_Wayland/X11_vs_Wayland.html",
       "/posts/vim/vim.html",
       "/posts/sudo/index.html",
