@@ -146,14 +146,16 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Извлечь звук из всех видео в папке. Создает папку cash, туда извлекаются звуковые файлы. Битрейт(качество звука) можно настроить,изначально битрейт -ab 128k.</p>
 <p>Скопировать все и вставить в терминал.</p>
-<blockquote class="blockquote">
-<p>mkdir cash</p>
-<p>for f in *.avi *MOV *.mkv *.mp4 *.mpg ;</p>
-<p>do</p>
-<p>ffmpeg -i “$f” -vn -ar 44100 -ac 2 -ab 128k -f mp3 cash/”${f%.*}”.mp3</p>
-<p>done</p>
-</blockquote>
-<p>Запустить.</p>
+<pre><code>mkdir cash
+
+for f in *.avi *MOV *.mkv *.mp4 *.mpg ;
+ 
+do
+
+ffmpeg -i "$f" -vn -ar 44100 -ac 2 -ab 128k -f mp3 cash/"${f%.*}".mp3
+ 
+done</code></pre>
+<p>Запустить -&gt; Enter</p>
 
 
 

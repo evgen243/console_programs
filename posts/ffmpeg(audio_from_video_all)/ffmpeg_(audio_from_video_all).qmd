@@ -13,14 +13,15 @@ image: "ffmpeg.png"
 
 Скопировать все и вставить в терминал.
 
-> mkdir cash
-> 
-> for f in \*.avi \*MOV \*.mkv \*.mp4 \*.mpg ;
-> 
-> do
-> 
-> ffmpeg -i “\$f” -vn -ar 44100 -ac 2 -ab 128k -f mp3 cash/”\${f%.*}”.mp3
-> 
-> done
+```
+mkdir cash
 
-Запустить.
+for f in *.avi *MOV *.mkv *.mp4 *.mpg ;
+ 
+do
+
+ffmpeg -i "$f" -vn -ar 44100 -ac 2 -ab 128k -f mp3 cash/"${f%.*}".mp3
+ 
+done
+```
+Запустить -> Enter
