@@ -152,9 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="извлечение-аудио-из-видеоодин-файл" class="level3">
 <h3 class="anchored" data-anchor-id="извлечение-аудио-из-видеоодин-файл">Извлечение аудио из видео(один файл)</h3>
-<ul>
-<li>ffmpeg -i INPUT.mp4 -vn -c:a libmp3lame -ab 64k OUTPUT.mp3</li>
-</ul>
+<pre><code>ffmpeg -i INPUT.mp4 -vn -c:a libmp3lame -ab 64k OUTPUT.mp3</code></pre>
 <blockquote class="blockquote">
 <p>-i INPUT.mp4 - входной файл(input)</p>
 <p>OUTPUT.mp3 - выходной файл(output)</p>

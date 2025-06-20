@@ -207,13 +207,13 @@
     "href": "posts/ffmpeg(audio_from_video_one)/ffmpeg_(audio_from_video_one).html",
     "title": "Извлечение аудио из видео(один файл)",
     "section": "",
-    "text": "Извлечение аудио из видео(один файл)\n\nffmpeg -i INPUT.mp4 -vn -c:a libmp3lame -ab 64k OUTPUT.mp3\n\n\n-i INPUT.mp4 - входной файл(input)\nOUTPUT.mp3 - выходной файл(output)\n-vn - видео нет(без видео)\n-c:a libmp3lame - кодек аудио\n-ab 64k - битрейт(качество звука можно менять)"
+    "text": "Извлечение аудио из видео(один файл)\nffmpeg -i INPUT.mp4 -vn -c:a libmp3lame -ab 64k OUTPUT.mp3\n\n-i INPUT.mp4 - входной файл(input)\nOUTPUT.mp3 - выходной файл(output)\n-vn - видео нет(без видео)\n-c:a libmp3lame - кодек аудио\n-ab 64k - битрейт(качество звука можно менять)"
   },
   {
     "objectID": "posts/ffmpeg_mp3_in_ogg_vorbis/ffmpeg_mp3_in_ogg_vorbis.html",
     "href": "posts/ffmpeg_mp3_in_ogg_vorbis/ffmpeg_mp3_in_ogg_vorbis.html",
     "title": "Конвертировать mp3 в ogg_vorbis",
     "section": "",
-    "text": "Один *.mp3 файл.\n\nffmpeg -i input.mp3 -c:a libvorbis -q:a 4 output.ogg\n\n\n\nЦелый каталог с MP3-файлами:\n\nfor f in ./*.mp3; do ffmpeg -i “\\(f\" -c:a libvorbis -q:a 4 \"\\){f/%mp3/ogg}”; done\n\n\n\nРекурсивно:\n\nfind . -type f -name ’*.mp3’ -exec bash -c ‘ffmpeg -i “\\(0\" -c:a libvorbis -q:a 4 \"\\){0/%mp3/ogg}”’ ‘{}’ ;\n\nУстановите качество вывода, отрегулировав значение-q:a: для этого кодека диапазон составляет 0-10, и чем выше значение, тем лучше качество\nВ старых версиях ffmpeg, вам может понадобиться использовать -acodec и -aq вместо -c:a и -q:a"
+    "text": "Один *.mp3 файл.\nffmpeg -i input.mp3 -c:a libvorbis -q:a 4 output.ogg\n\n\nЦелый каталог с MP3-файлами:\nfor f in ./*.mp3; do ffmpeg -i \"$f\" -c:a libvorbis -q:a 4 \"${f/%mp3/ogg}\"; done\n\n\nРекурсивно:\nfind . -type f -name '*.mp3' -exec bash -c 'ffmpeg -i \"$0\" -c:a libvorbis -q:a 4 \"${0/%mp3/ogg}\"' '{}' \\;\nУстановите качество вывода, отрегулировав значение-q:a: для этого кодека диапазон составляет 0-10, и чем выше значение, тем лучше качество\nВ старых версиях ffmpeg, вам может понадобиться использовать -acodec и -aq вместо -c:a и -q:a"
   }
 ]

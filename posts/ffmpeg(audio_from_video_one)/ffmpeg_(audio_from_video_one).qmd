@@ -9,9 +9,9 @@ image: "ffmpeg.png"
 ---
 
 ### Извлечение аудио из видео(один файл)
-
-- ffmpeg -i INPUT.mp4 -vn -c:a libmp3lame -ab 64k OUTPUT.mp3
-
+```
+ffmpeg -i INPUT.mp4 -vn -c:a libmp3lame -ab 64k OUTPUT.mp3
+```
 >-i  INPUT.mp4 - входной файл(input)
 >
 >OUTPUT.mp3 - выходной файл(output)
