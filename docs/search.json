@@ -200,7 +200,7 @@
     "href": "posts/ffmpeg(audio_from_video_all)/ffmpeg_(audio_from_video_all).html",
     "title": "Извлечь звук из всех видео в папке",
     "section": "",
-    "text": "Извлечь звук из всех видео в папке. Создает папку cash, туда извлекаются звуковые файлы. Битрейт(качество звука) можно настроить,изначально битрейт -ab 128k.\nСкопировать все и вставить в терминал.\n\nmkdir cash\nfor f in .avi MOV .mkv .mp4 *.mpg ;\ndo\nffmpeg -i “$f” -vn -ar 44100 -ac 2 -ab 128k -f mp3 cash/”${f%.*}”.mp3\ndone\n\nЗапустить."
+    "text": "Извлечь звук из всех видео в папке. Создает папку cash, туда извлекаются звуковые файлы. Битрейт(качество звука) можно настроить,изначально битрейт -ab 128k.\nСкопировать все и вставить в терминал.\n\nmkdir cash\nfor f in *.avi *MOV *.mkv *.mp4 *.mpg ;\ndo\nffmpeg -i “$f” -vn -ar 44100 -ac 2 -ab 128k -f mp3 cash/”${f%.*}”.mp3\ndone\n\nЗапустить."
   },
   {
     "objectID": "posts/ffmpeg(audio_from_video_one)/ffmpeg_(audio_from_video_one).html",

@@ -15,7 +15,7 @@ image: "ffmpeg.png"
 
 > mkdir cash
 > 
-> for f in *.avi *MOV *.mkv *.mp4 *.mpg ;
+> for f in \*.avi \*MOV \*.mkv \*.mp4 \*.mpg ;
 > 
 > do
 > 
