@@ -1,7 +1,7 @@
 ---
 title: "Vim"
 date: "2024-06-04"
-categories: [news, terminal, editor]
+categories: [news, terminal, editor, vim]
 page-layout: full
 title-block-banner: false
 toc: true
