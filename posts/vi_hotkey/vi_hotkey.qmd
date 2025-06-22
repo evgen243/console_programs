@@ -1,5 +1,5 @@
 ---
-title: "Vi-keyboard shortcuts"
+title: "Vi keyboard shortcuts"
 date: "2025-06-21"
 categories: [news, terminal, editor, vim]
 page-layout: full
