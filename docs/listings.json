@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/ffmpeg_audio_from_video/extract.html",
       "/posts/ffmpeg_convert_media/ffmpeg_convert_media_file.html",
       "/posts/vim_hotkey/vim_hotkey.html",
       "/posts/vi_hotkey/vi_hotkey.html",
