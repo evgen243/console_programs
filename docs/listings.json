@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/imagemagick_quality_thumbnail/imagemagick_quality_thumbnail.html",
       "/posts/ImageMagick/ImageMagick.html",
       "/posts/ffmpeg_audio_from_video/extract.html",
       "/posts/ImageMagick_Основные_команды/ImageMagick_Основные_команды.html",
