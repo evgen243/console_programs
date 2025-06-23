@@ -2,7 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/ImageMagick/ImageMagick.html",
       "/posts/ffmpeg_audio_from_video/extract.html",
+      "/posts/ImageMagick_Основные_команды/ImageMagick_Основные_команды.html",
+      "/posts/imagemagick_convert_new/imagemagick_convert_new.html",
       "/posts/ffmpeg_convert_media/ffmpeg_convert_media_file.html",
       "/posts/vim_hotkey/vim_hotkey.html",
       "/posts/vi_hotkey/vi_hotkey.html",

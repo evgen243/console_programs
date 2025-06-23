@@ -1,0 +1,16 @@
+---
+title: "ImageMagick. New!!!"
+date: "2025-06-22"
+categories: [news, terminal, imagemagick]
+page-layout: full
+title-block-banner: false
+toc: true
+image: "imagemagick_convert.jpg"
+---
+
+!!! ЧИТАТЬ ОБЯЗАТЕЛЬНО !!!
+
+Команда convert устарела в Img7(ImageMagick7), используйте "magick" вместо "convert" или "magick convert".
+```
+magick *.webp *.jpg
+```
