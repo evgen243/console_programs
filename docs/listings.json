@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/vim_100-1/vim_100-1_команд.html",
       "/posts/vim_перекодировка_file/vim_перекодировка_file.html",
       "/posts/imagemagick_border_black-white_PDF/imagemagick_рамки_черно-белое_негатив_PDF.html",
       "/posts/imagemagick_identify_convert_mogrify_display/imagemagick_identify_convert_mogrify_display.html",
