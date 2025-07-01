@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/imagemagick.convert_PDF_to_image/imagemagick.convert_PDF_to_image.html",
       "/posts/imagemagick.Look/imagemagick.Просмотр_обработка.html",
       "/posts/ImageMagick.FotoKilof_GUI/FotoKilof_GUI_for_ImageMagick.html",
       "/posts/vim-отключить_включить_орфография/vim-отключить_включить_орфография.html",
