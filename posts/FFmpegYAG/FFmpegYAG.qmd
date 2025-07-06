@@ -33,3 +33,12 @@ FFmpegYAG делает FFmpeg простым в использовании, да
 Вы можете скачать FFmpegYAG с [https://sourceforge.net/projects/ffmpegyag/](https://sourceforge.net/projects/ffmpegyag/)
 
 Посмотреть /взято с [https://www.trishtech.com/2020/01/ffmpegyag-gui-frontend-for-ffmpeg-media-processor/](https://www.trishtech.com/2020/01/ffmpegyag-gui-frontend-for-ffmpeg-media-processor/)
+
+Пример работы в Windows:
+
+
+![Выбор запуска(второй пункт это установленная FFmpeg в Windows)](ffmpegYAG_play.png)
+
+
+
+![Ну и сама программа. Думаю никаких сложностей не будет!](ffmpegYAG_play_2.png)
