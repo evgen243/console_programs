@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/FFmpegYAG/FFmpegYAG.html",
+      "/posts/ffmpeg_windows/FFmpeg_Windows.html",
       "/posts/ffmpeg_convert_video/ffmpeg_convert_video.html",
       "/posts/ffmpeg_Добавить_обложку_в_аудио/ffmpeg_Добавить_обложку_в_аудио.html",
       "/posts/ffmpeg_Информация_о_медиа_файле/ffmpeg_Информация_о_медиа_файле.html",
