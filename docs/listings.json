@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/imagemagick_all/magick_all.html",
       "/posts/ffmpeg_Обрезать_медиа_файлов1/ffmpeg_Обрезать_медиа_файлов1.html",
       "/posts/ffmpeg_Обрезать_медиа_файлов2/ffmpeg_Обрезка_медиа_файлов2.html",
       "/posts/FFmpegYAG/FFmpegYAG.html",
