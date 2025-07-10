@@ -12,13 +12,13 @@ image: "test24.jpg"
 
 Все опции ImageMagick есть на сайте(на английском):
 
-- http://www.bibliotecacpa.org.ar/greenstone/bin/linux/imagemagick/share/doc/ImageMagick-6.6.5/www/command-line-options.html#implode
+- [http://www.bibliotecacpa.org.ar/greenstone/bin/linux/imagemagick/share/doc/ImageMagick-6.6.5/www/command-line-options.html#implode](http://www.bibliotecacpa.org.ar/greenstone/bin/linux/imagemagick/share/doc/ImageMagick-6.6.5/www/command-line-options.html#implode)
 
 ![](all_opc.png)
 
 Так же есть неплохое руководство здесь(на русском):
 
-- https://zalinux.ru/?p=7544#imagemagick_add_text_1
+- [https://zalinux.ru/?p=7544#imagemagick_add_text_1](https://zalinux.ru/?p=7544#imagemagick_add_text_1)
 
 ### Все опции команды magick 
  
